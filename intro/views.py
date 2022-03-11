@@ -18,7 +18,7 @@ def home3(request):
 
 
 def home4(request):
-    return HttpResponse("Witam urzytkownika!")
+    return HttpResponse("Witam użytkownika!")
 
 
 def name_view(request, name):
