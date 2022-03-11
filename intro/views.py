@@ -7,3 +7,11 @@ def home(request):
         request,
         'index.html'
     )
+
+
+def home2(request):
+    return HttpResponse('Witaj na stronie!')
+
+
+def home3(request):
+    return HttpResponse("Ta strona to jest super!")
