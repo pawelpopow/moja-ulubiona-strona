@@ -9,6 +9,14 @@ def home(request):
     )
 
 
+def home_premium(request):
+    return HttpResponse('Ta strona jest pod kontrola CBA !!!')
+
+
+def home_premium2(request):
+    return HttpResponse('To jest fajna strona fajnie, że tu jesteś !!!')
+
+
 def home2(request):
     return HttpResponse('Witaj na stronie!')
 
