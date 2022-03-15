@@ -9,6 +9,7 @@ urlpatterns = [
     path('home4/', views.home4),
     path('home_premium/', views.home_premium),
     path('home_premium2/', views.home_premium2),
+    path('web/', views.web),
     path('<str:name>/', views.name_view),
 ]
 

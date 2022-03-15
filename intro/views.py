@@ -29,6 +29,10 @@ def home4(request):
     return HttpResponse("Witam użytkownika strony!")
 
 
+def web(request):
+    return HttpResponse("Ta strona jest nowa !!!!")
+
+
 def name_view(request, name):
     msg = f"Cześć, {name}!"
     return HttpResponse(msg)
