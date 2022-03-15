@@ -10,8 +10,8 @@ urlpatterns = [
     path('home_premium/', views.home_premium),
     path('home_premium2/', views.home_premium2),
     path('web/', views.web),
+    path('web2/', views.web2),
     path('<str:name>/', views.name_view),
 ]
-
 
 

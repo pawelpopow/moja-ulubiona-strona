@@ -33,6 +33,10 @@ def web(request):
     return HttpResponse("Ta strona jest nowa !!!!")
 
 
+def web2(request):
+    return HttpResponse("Przepraszamy wystąpił chwilowy błąd !!!!!")
+
+
 def name_view(request, name):
     msg = f"Cześć, {name}!"
     return HttpResponse(msg)
