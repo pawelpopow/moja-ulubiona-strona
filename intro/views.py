@@ -9,6 +9,20 @@ def home(request):
     )
 
 
+def home2022(request):
+    return render(
+        request,
+        'base.html'
+    )
+
+
+def home22(request):
+    return render(
+        request,
+        'index1.html'
+    )
+
+
 def home_premium(request):
     return HttpResponse('Ta strona jest pod kontrola CBA !!!')
 
@@ -40,3 +54,11 @@ def web2(request):
 def name_view(request, name):
     msg = f"Cześć, {name}!"
     return HttpResponse(msg)
+
+
+def number(request):
+    return HttpResponse("Twój szczesliwy number jest dziś 14 a wczoraj był 12 ")
+
+
+def pizza(request):
+    return HttpResponse("Cena pizzy jest tania dzisiaj a wczoraj była droga!!!!!!!!!!!")
