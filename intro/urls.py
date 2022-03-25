@@ -14,5 +14,7 @@ urlpatterns = [
     path('pizza/', views.pizza),
     path('home2022/', views.home2022),
     path('home22/', views.home22),
-    path('<str:name>/', views.name_view),
+    path('<int:number>/', views.number_view),
+    path('v1/<str:name>/', views.name_view),
+    path('v2/<str:name>/', views.name_view_2),
 ]

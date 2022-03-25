@@ -51,6 +51,11 @@ def web2(request):
     return HttpResponse("Przepraszamy wystąpił chwilowy błąd !!!!!")
 
 
+def number_view(request, number):
+    qse = f"Moj szczesliwy numer to: {number}!"
+    return HttpResponse(qse)
+
+
 def name_view(request, name):
     msg = f"Cześć, {name}!"
     return HttpResponse(msg)
@@ -62,3 +67,13 @@ def number(request):
 
 def pizza(request):
     return HttpResponse("Cena pizzy jest tania dzisiaj a wczoraj była droga!!!!!!!!!!!")
+
+
+def name_view_2(request, name):
+    return render(
+        request,
+        'intro/name.html',
+        context={
+            'name': name
+        }
+    )
