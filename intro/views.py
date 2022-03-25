@@ -77,3 +77,13 @@ def name_view_2(request, name):
             'name': name
         }
     )
+
+
+def name_view_3(request, name):
+    return render(
+        request,
+        'intro/home.html',
+        context={
+            'name': name
+        }
+    )

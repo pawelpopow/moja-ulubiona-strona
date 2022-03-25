@@ -17,4 +17,5 @@ urlpatterns = [
     path('<int:number>/', views.number_view),
     path('v1/<str:name>/', views.name_view),
     path('v2/<str:name>/', views.name_view_2),
+    path('v3/<str:name>/', views.name_view_3),
 ]
