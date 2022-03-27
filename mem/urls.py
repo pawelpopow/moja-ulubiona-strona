@@ -5,5 +5,5 @@ from mem import views
 app_name = 'mem'
 
 urlpatterns = [
-    path('img/', views.images, name='images'),
+    path('name2/', views.name2, name='name2'),
 ]

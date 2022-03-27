@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'intro.apps.IntroConfig',
     'mem.apps.MemConfig',
+    'draw.apps.DrawConfig',
 ]
 
 MIDDLEWARE = [

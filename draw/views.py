@@ -1,11 +1,11 @@
 from django.shortcuts import render
 
 
-def name2(request, name):
+def new(request, news):
     return render(
         request,
-        'mem/name.html',
+        'draw/news.html',
         context={
-            'name': name
+            'news': news
         }
     )
